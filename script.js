@@ -36,7 +36,7 @@ buttonScorekeeper2.addEventListener("click", function() {
     }
 })
 
-reset.addEventListener("click", function()){
+reset.addEventListener("click", function(){
     buttonScorekeeper1.remove ("disabled");
     buttonScorekeeper2.remove ("disabled");
     playerOneScore.classList.remove ("green");
