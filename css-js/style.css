@@ -12,4 +12,11 @@ body {
 
 /*------------------------ SCOREKEEPER.HTML---------------------------*/
 
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: aliceblue;
+    font-size: 7rem;
+    text-align: center;
+    text-shadow: 2px 2px grey;
 
+}
