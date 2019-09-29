@@ -20,3 +20,59 @@ h1 {
     text-shadow: 2px 2px grey;
 
 }
+h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #FF7103;
+    font-size: 4rem;
+    text-align: center;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #FF7103;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px black, 0 0 1em pink, 0 0 1em grey;
+}
+.form-group {
+    text-align: center;
+}
+.form-input {
+    text-align:center;
+    margin-top: 1rem;
+}
+
+input{
+    width: 25rem;
+    height: 2.5rem;
+}
+.p1 {
+    margin-right: .8rem;
+    width:7.5rem;
+	height:7.5rem;
+	background:#F0636F;
+	border-radius:100px;
+}
+.p2 {
+    margin-right: .8rem;
+    width:7.5rem;
+	height:7.5rem;
+	background:#FFA527;
+	border-radius:100px;
+}
+.reset {
+    padding: 0 0 0.5rem 0;
+    margin-right: .8rem;
+    width:7.5rem;
+	height:7.5rem;
+	background: #C2D9CB;
+	border-radius:100px;
+}
+
+.winner {
+    color: greenyellow;
+}
+
+.victoire{
+    color: greenyellow;
+}
