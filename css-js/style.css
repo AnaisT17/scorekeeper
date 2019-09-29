@@ -4,13 +4,15 @@ html, body{
     margin : 0;
     padding : 0;
 }
-html{
-    height: 100%;
+body {
+    background: url("./../img/recreation.jpg") no-repeat;
+    background-size: cover;
+    
 }
 
 /*------------------------ SCOREKEEPER.HTML---------------------------*/
 
-.titles {
+h1 {
     text-align: center;
     margin-right: 30%;
     margin-left: 35%;
@@ -18,16 +20,6 @@ html{
     color: white;
 }
 
-.contentScorekeeper {
-    background-image: url("topping.jpg");
-    background-size: cover;
-    opacity: 60%;
-}
-
 .green {
     color: green;
-}
-button {
-    border-radius: 2px; 
-    color: black;
 }
