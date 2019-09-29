@@ -9,18 +9,18 @@
     <title>SCORESKEEPER</title>
 </head>
 <body>
-    <main></main>
+    <main>
         <h1>Jeu de la Marelle</h1>
-        <h3>Score : <span id="score1">0</span> to <span id="score2">0</span></h3>
-    <section class="form-group">
-        <button type="submit" class="buttonPlayer2" id="ctr1"> Joueur 1 </button>
-        <button type="submit" class="buttonPlayer1" id="ctr2"> Joueur 2 </button>
-        <button class="btn btn-danger" id="reset"> Reset </button>
-    </section>
-    <section class="form-group">
-        <input type="numbers" value="5">
-    </section>
-    <h3>Le gagnant est : <span id="winner"></span></h3>
+        <h3>Score : <span id="p1Result">0</span> to <span id="p2Result">0</span></h3>
+    <div class="form-group">
+        <button class="p1" id="p1"> Joueur 1 </button>
+        <button class="p2" id="p2"> Joueur 2 </button>
+        <button class="reset" id="reset"> Reset </button>
+    </div>
+    <div class="form-input">
+        <input type="number" value="5">
+    </div>
+    <p>Il te faut<span class="victoire" id="winner"> 5 </span> victoires pour <br> être le champion de la récrée</p>
 </main>
     <script src="./css-js/script.js" type="text/javascript" ></script>
 </body>
